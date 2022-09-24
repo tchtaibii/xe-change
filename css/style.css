@@ -198,17 +198,16 @@ li a{
 .brands-logo img{
     margin-left: 57px;
 }
-.c1p::after
+.c1p::before
 {
     content: "";
-    position: absolute;
-    left: 126px;
-    top: 451px;
-    width: 20px;
-    height: 1px;
-    background-color: #72B218;
-    /* border: 1px solid #72B218; */
-    transform: rotate(90deg);
+    position: relative;
+    bottom: -14px;
+    width: 0px;
+    height: 20px;
+    /* background: aquamarine; */
+    border: 1px solid #72B218;
+    left: calc(0% - 20px);
 }
 .button-g:hover
 {
@@ -477,7 +476,7 @@ footer hr{
     align-items: center;
     width: 90%;
     justify-content: space-between;
-    margin-bottom: 84px;
+    margin-bottom: 20px;
 }
 
 .footerl p{
@@ -495,4 +494,14 @@ footer hr{
     src: url(fonts\Gilroy-Light.otf);
     font-style: normal;
     font-weight: 100;
+}
+.c4-1-b-d::after{
+    content: "";
+    position: relative;
+    bottom: -93px;
+    width: 0px;
+    height: 20px;
+    /* background: aquamarine; */
+    border: 0.5px dashed #2D2F2F;
+    left: calc(-85% - 4px);
 }
