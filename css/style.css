@@ -53,6 +53,7 @@ li a{
     font-size: 18px;
     line-height: 22px;
 }
+
 .button-g{
     display: flex;
     flex-direction: row;
@@ -188,4 +189,15 @@ li a{
     background-color: #72B218;
     /* border: 1px solid #72B218; */
     transform: rotate(90deg);
+}
+.button-g:hover
+{
+    background-color: #ADC811;
+}
+.lears:hover{
+    background-color: #ADC811;
+}
+.gets:hover{
+    background: #121314;
+    border: 1.5px solid rgba(105, 176, 25, 0.2);
 }
