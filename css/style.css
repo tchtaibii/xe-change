@@ -201,3 +201,32 @@ li a{
     background: #121314;
     border: 1.5px solid rgba(105, 176, 25, 0.2);
 }
+
+#content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 152px;
+    margin-bottom: 91px;
+    width: 55%;
+}
+#content2 h2{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#content2 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #848484;
+}
