@@ -40,14 +40,31 @@ ul {
     align-items: center;
 }
 
+ul li {
+    display:inline-block;
+    position:relative;
+ }
+
 li {
     float: left;
     margin-left: 50px;
     list-style-type: none;
 }
+
+ul li:hover:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    background: #9BC114;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    left: calc(50% - 4px);
+}
+
 li a{
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -57,7 +74,7 @@ li a{
 .button-g{
     display: flex;
     flex-direction: row;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -98,7 +115,7 @@ li a{
     margin-bottom: 20px;
 }
 .c1p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -127,7 +144,7 @@ li a{
     justify-content: center;
     width: 198px;
     height: 65px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -145,7 +162,7 @@ li a{
     justify-content: center;
     width: 175px;
     height: 65px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -156,6 +173,7 @@ li a{
 
 .bt{
     cursor: pointer;
+    transition: 0.5s;
 }
 #brands{
     display: flex;
@@ -215,14 +233,14 @@ li a{
     width: 55%;
 }
 #content2 h2{
-    font-family: 'Gilroy-SemiBold';
+    font-family: Gilroy-SemiBold;
     font-size: 42px;
     line-height: 50px;
     margin-bottom: 10px;
 }
 
 #content2 p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -277,7 +295,7 @@ li a{
     margin-bottom: 13px;
 }
 .c3-box p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     width: 80%;
     font-weight: 400;
@@ -311,7 +329,7 @@ li a{
 }
 
 .c4-1pa{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -365,7 +383,7 @@ li a{
 
 }
 .c4-1-b2 p{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -401,7 +419,7 @@ li a{
 }
 .text5 h2{
     display: inline;
-    font-family: 'Gilroy-SemiBold';
+    font-family: Gilroy-SemiBold;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
@@ -421,9 +439,11 @@ li a{
     border: 1.5px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
 }
-
+.button5:hover{
+    background: #121314;
+}
 .button5 h3{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -461,11 +481,18 @@ footer hr{
 }
 
 .footerl p{
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     text-align: right;
     color: #414242;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(fonts\Gilroy-Light.otf);
+    font-style: normal;
+    font-weight: 100;
 }
