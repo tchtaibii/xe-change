@@ -72,7 +72,6 @@ li a{
 }
 
 #content1{
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -152,4 +151,40 @@ li a{
     line-height: 19px;
     background: linear-gradient(96.69deg, #C1D20B -7.54%, #6BAF1A 93.14%);
     border-radius: 20px;
+}
+
+.bt{
+    cursor: pointer;
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    background-color: #141516;
+}
+
+.brands-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 32px 0;
+}
+
+.c1p::after
+{
+    content: "";
+    position: absolute;
+    left: 126px;
+    top: 451px;
+    width: 20px;
+    height: 1px;
+    background-color: #72B218;
+    /* border: 1px solid #72B218; */
+    transform: rotate(90deg);
 }
