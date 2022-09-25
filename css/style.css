@@ -474,7 +474,7 @@ footer{
     justify-content: center;
     width: 90%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 footer hr{
@@ -491,7 +491,7 @@ footer hr{
     align-items: center;
     width: 90%;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .footerl p{
@@ -519,4 +519,98 @@ footer hr{
     /* background: aquamarine; */
     border: 0.5px dashed #2D2F2F;
     left: calc(-85% - 4px);
+}
+
+#c-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 250px auto;
+    margin-top: 200px;
+}
+#form-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.form-in{
+    box-sizing: border-box;
+    color: #FFFFFF;
+    width: 704px;
+    height: 55px;
+    background: #161717;
+    border: 1px solid rgba(68, 70, 70, 0.2);
+    border-radius: 8px;
+    outline: none;
+}
+
+.img-star{
+    margin-bottom: 16px;
+}
+
+.form-in2{
+    height: 180px;
+    resize: none;
+    padding-top: 18px;
+}
+
+#submit-form{
+    width: 704px;
+    height: 55px;
+    background: linear-gradient(180deg, #72B218 0%, #72B218 100%);
+    border-radius: 8px;
+    color: #FFFFFF
+}
+#c-content1 h2{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 42px;
+    line-height: 50px;
+    /* identical to box height, or 119% */
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#c-content1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+    width: 92%;
+    color: #848484;
+}
+
+.form-i{
+    padding-left: 40px;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.form-div img{
+    position: relative;
+    left: 33px;
+    top: 17px;
+}
+.sizer{
+    width: 1514px;
+    margin: 0 auto;
+    height: 0.5px;
+    background-color: #121314;
 }
