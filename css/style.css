@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 * {
     margin: 0;
     padding: 0;
@@ -108,7 +109,7 @@ li a{
     line-height: 70px;
 }
 .c1 h1{
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 50px;
     line-height: 70px;
     margin-top: -23px;
@@ -547,6 +548,7 @@ footer hr{
     border: 1px solid rgba(68, 70, 70, 0.2);
     border-radius: 8px;
     outline: none;
+    padding-right: 10px;
 }
 
 .img-star{
@@ -564,7 +566,15 @@ footer hr{
     height: 55px;
     background: linear-gradient(180deg, #72B218 0%, #72B218 100%);
     border-radius: 8px;
-    color: #FFFFFF
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #F8FBFF;
 }
 #c-content1 h2{
     font-family: 'Gilroy-SemiBold';
@@ -585,7 +595,7 @@ footer hr{
 
     text-align: center;
     letter-spacing: -0.04em;
-    width: 92%;
+    width: 55%;
     color: #848484;
 }
 
