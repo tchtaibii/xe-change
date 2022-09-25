@@ -1,0 +1,98 @@
+@media (max-width: 1448px) {
+    .sizer{
+        width: 98vw;
+    }
+}
+
+@media (max-width: 1096px) {
+    li {
+        margin-left: 19px;
+    }
+}
+
+@media (max-width: 937px) {
+    header {
+        width: 98%;
+    }
+    .footerl p {
+        font-size: 14px;
+    }
+    .footerl img{
+        width: 30%;
+    }
+}
+@media (max-width: 764px) {
+    header {
+        justify-content: center;
+
+        /* flex-direction: column; */
+    }
+    .logo-d{
+        margin-right: 20px;
+    }
+    ul {
+        position: absolute;
+        top: 87px;
+        margin: auto;
+    }
+    .form-in{
+        width: 580px;
+    }
+    #submit-form{
+        width: 580px;
+    }
+    .footerl p {
+        font-size: 14px;
+    }
+    .footerl img{
+        width: 30%;
+    }
+    #c-content1{
+        margin-top: 140px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 763px){
+    .form-in{
+        width: 400px;
+    }
+    #submit-form{
+        width: 400px;
+    }
+    #c-content1 h2
+    {
+        font-size: 20px;
+    }
+    #c-content1 p{
+        font-size: 15px;
+    }
+    .footerl p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 459px)
+{
+    .form-in {
+        width: 327px;
+    }
+    #submit-form {
+        width: 327px;
+    }
+    .footerl p{
+        font-size: 7px;
+    }
+}
+@media (max-width: 373px)
+{
+    li a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 326px)
+{
+    li a{
+        font-size: 8px;
+    }
+}

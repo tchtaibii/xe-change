@@ -1,0 +1,13 @@
+@media (max-width: 1448px) {
+    #brands{
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 357px){
+    .c3-box {
+        width: 300px;
+        height: 324px
+    }
+}
