@@ -440,7 +440,22 @@ li a{
 }
 .button5:hover{
     background: #121314;
+    color: #91B511;
 }
+
+.imgcash {
+    display: inline;
+    position: relative;
+    width: 151.5px;
+    height: 7.05px;
+    bottom: 3px;
+    left: calc(75%);
+}
+
+.lears p{
+    margin-right: 5px;
+}
+
 .button5 h3{
     font-family: 'Inter', sans-serif;
     font-style: normal;
