@@ -1,13 +1,262 @@
-@media (max-width: 1448px) {
-    #brands{
-        width: 90%;
+
+
+@media (max-width: 1337px) {
+    .c1 h2 {
+        font-size: 35px;
+    }
+    .c1 h1 {
+        font-size: 40px;
+    }
+    .brands-logo img {
+        margin-left: 26px;
     }
 }
 
+@media (max-width: 1266px)
+{
+    .c1 h2 {
+        font-size: 34px;
+    }
+    .c4-1-b {
+        width: 747px;
+    }
+}
 
-@media (min-width: 357px){
-    .c3-box {
-        width: 300px;
-        height: 324px
+@media (max-width: 1245px)
+{
+    .c1 h2 {
+        font-size: 33px;
+    }
+    .brands-logo img {
+        margin-left: 13px;
+    }
+    .c4-2{
+        position: relative;
+        top: 110px;
+    }
+    .brands-logo img {
+        margin-left: 13px;
+    }
+
+}
+
+@media (max-width: 1124px) {
+    li {
+        margin-left: 19px;
+    }
+    #content2 h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1074px)
+{
+    #content4{
+        justify-content: center;
+    }
+    .c4-2{
+        display: none;
+    }
+    .c4-1{
+        align-items: center;
+    }
+}
+
+@media (max-width: 990px)
+{
+    .c2{
+        width: 362px;
+    }
+}
+
+@media (max-width: 960px) {
+    header {
+        width: 98%;
+    }
+    .footerl p {
+        font-size: 14px;
+    }
+    .footerl img{
+        width: 30%;
+    }
+    .c2{
+        width: 273px;
+    }
+    .c1 h2 {
+        font-size: 25px;
+    }
+    .imgcash {
+        width: 134.5px;
+        height: 7.05px;
+        bottom: 21px;
+        left: calc(50%);
+        transform: rotateY(44deg);
+    }
+    .c1 h1 {
+        font-size: 30px;
+    }
+    .c1p {  
+        font-size: 18px;
+    }
+    #content5{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text5{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #content2 h2 {
+        font-size: 30px;
+    }
+    #content2 p {
+        font-size: 12px;
+    }
+    #content2 {
+        margin-bottom: 38px;
+    }
+    .c3-box p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .c3-box h2 {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 764px) {
+    header {
+        justify-content: center;
+
+        /* flex-direction: column; */
+    }
+    .logo-d{
+        margin-right: 20px;
+    }
+    .c3-box h2 {
+        font-size: 15px;
+    }
+    .c3-box p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    ul {
+        position: absolute;
+        top: 87px;
+        margin: auto;
+    }
+    .footerl p {
+        font-size: 14px;
+    }
+    .footerl img{
+        width: 30%;
+    }
+    .c4-1-b {
+        width: 605px;
+    }
+    .c4-1-b img {
+        margin-left: 20px;
+    }
+    .c4-1-b2 p {
+        font-size: 12px;
+    }
+    #content2 h2 {
+        font-size: 25px;
+    }
+    #content2 p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .c1 h2 {
+        font-size: 20px;
+    }
+    .c1 h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .c1p {
+        font-size: 13px;
+    }
+    .gets {
+        width: 115px;
+        font-size: 10px;
+    }
+    .lears {
+        width: 146px;
+        font-size: 10px;
+    }
+    .imgcash{
+        transform: rotateY(118deg);
+    }
+    .footerl p{
+        font-size: 10px;
+    }
+    .c4-1-b {
+        width: 518px;
+    }
+    #content5{
+        padding: 0 0;
+    }
+}
+@media (max-width: 656px) {
+    .lears {
+        width: 100px;
+        font-size: 7px;
+        margin-left: 13px;
+    }
+    .gets {
+        width: 100px;
+        font-size: 7px;
+    }
+    .c1 h2 {
+        font-size: 18px;
+    }
+    .imgcash{
+        left: calc(58%);
+    }
+    #content2 h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .footerl p{
+        font-size: 7px;
+    }
+    .c4-1-b {
+        width: 401px;
+    }
+    .c1p {
+        font-size: 10px;
+    }
+    .c1 h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .c1 h2 {
+        font-size: 15px;
+    }
+    .imgcash {
+        left: calc(48%);
+    }
+    .c1p::before {
+        bottom: -5px;
+        left: calc(5% - 20px);
+    }
+}
+
+@media (max-width: 373px)
+{
+    li a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 326px)
+{
+    li a{
+        font-size: 8px;
     }
 }

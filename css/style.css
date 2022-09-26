@@ -128,7 +128,6 @@ li a{
 .c2{
     display: flex;
     width: 559px;
-    height: 559px;
 }
 .c2 img{
     width: inherit;
@@ -199,6 +198,11 @@ li a{
 .brands-logo img{
     margin-left: 57px;
 }
+
+.logo-b{
+    width: 15%;
+}
+
 .c1p::before
 {
     content: "";
@@ -256,7 +260,7 @@ li a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 90%;
     margin-bottom: 50px;
 }
@@ -266,7 +270,7 @@ li a{
     align-items: center;
     justify-content: center;
     margin-left: 50px;
-    width: 432px;
+    width: 30%;
     height: 348px;
     background: #161717;
     border-radius: 20px;
@@ -309,7 +313,7 @@ li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0 auto;
     width: 90%;
     margin-top: 150px;
@@ -346,6 +350,10 @@ li a{
     align-items: center;
     justify-content: flex-end;
     margin-top: 80px;
+    width: 50%;
+}
+.c4-2 img{
+    width: 100%;
 }
 
 .c4-1-b{
