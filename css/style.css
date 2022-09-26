@@ -258,9 +258,9 @@ li a{
 #content3{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     width: 90%;
     margin-bottom: 50px;
 }
@@ -269,7 +269,7 @@ li a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: 30%;
     height: 348px;
     background: #161717;
@@ -458,7 +458,7 @@ li a{
     width: 151.5px;
     height: 7.05px;
     bottom: 14px;
-    left: calc(70%);
+    left: calc(55%);
 }
 
 .lears p{
