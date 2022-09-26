@@ -190,13 +190,13 @@ li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     width: 80%;
     padding: 32px 0;
 }
 .brands-logo img{
-    margin-left: 57px;
+    /* margin-left: 57px; */
 }
 
 .logo-b{
