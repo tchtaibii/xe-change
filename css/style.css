@@ -108,6 +108,21 @@ li a{
     font-size: 40px;
     line-height: 70px;
 }
+
+.c1 h2::after{
+    content: "";
+    position: relative;
+    display: none;
+    bottom: 3px;
+    background: #6baf1a;
+    width: 81px;
+    height: 3px;
+    /* border: solid 1px #6BAF1A; */
+    left: calc(60% - 20px);
+    /* clip-path: ellipse(144% 100% at 25.56% 0%); */
+    clip-path: ellipse(48% 100% at 50.52% 0%);
+}
+
 .c1 h1{
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 50px;
@@ -454,6 +469,7 @@ li a{
 
 .imgcash {
     display: inline;
+    display: none;
     position: relative;
     width: 151.5px;
     height: 7.05px;
