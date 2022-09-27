@@ -10,10 +10,7 @@
     .brands-logo img {
         /* margin-left: 26px; */
     }
-    .container{
-        background-image: none;
-    }
-}
+}   
 
 @media (max-width: 1266px)
 {
@@ -65,6 +62,9 @@
     }
     ul{
         display: flex;
+    }
+    .container{
+        background-image: none;
     }
 }
 
