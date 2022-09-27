@@ -428,7 +428,7 @@ li a{
     background: linear-gradient(94.06deg, #54730B 0%, #9DC213 101.22%);
     background-color: #9DC213;
     background-image: url(../resource/exchange.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 90%;
     height: 328px;
