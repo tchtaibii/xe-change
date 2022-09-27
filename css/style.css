@@ -425,9 +425,13 @@ li a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(94.06deg, #54730B 0%, #9DC213 101.22%);
+    background-color: #9DC213;
+    background-image: url(../resource/exchange.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 90%;
     height: 328px;
-    background: linear-gradient(94.06deg, #54730B 0%, #9DC213 101.22%);
     border-radius: 26px;
     padding: 0 87px;
     margin: auto;
