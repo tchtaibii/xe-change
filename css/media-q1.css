@@ -277,6 +277,11 @@
         height: 30px;
         font-size: 6px;
     }
+    .cash::after {
+        bottom: 31px;
+        width: 230%;
+        left: calc(-70%);
+    }
     .lears {
         width: 53px;
         height: 30px;
