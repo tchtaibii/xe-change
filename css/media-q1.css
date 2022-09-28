@@ -125,6 +125,12 @@
     .c3-box h2 {
         font-size: 18px;
     }
+    .textcash {
+        margin-bottom: -19px;
+    }
+    .cash::after {
+        bottom: 17px;
+    }
     
 }
 
@@ -203,6 +209,11 @@
     }
     #content5{
         padding: 0 0;
+    }
+    .cash::after {
+        bottom: 25px;
+        width: 180%;
+        left: calc(-38%);
     }
     
 }
