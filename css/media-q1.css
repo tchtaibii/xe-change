@@ -341,7 +341,7 @@
         width: 80%;
     }
     header {
-        /* width: 80%; */
+        width: 100%;
     }
     .backround-c {
         width: 85%;
@@ -356,11 +356,18 @@
     .text5 {
         width: 100%;
     }
+    .button-g{
+        line-height: 10px;
+    }
 }
 
-@media (max-width: 326px)
+@media (max-width: 331px)
 {
     li a{
         font-size: 8px;
+    }
+    .button-g{
+        font-size: 7px;
+        /* line-height: 2px; */
     }
 }
