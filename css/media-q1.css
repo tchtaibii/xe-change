@@ -310,6 +310,49 @@
         width: 83px;
         height: 35px;
     }
+    .c4-1-b {
+        width: 241px;
+    }
+    .c4-1pa {
+        font-size: 12px;
+    }
+    #content5 {
+        width: 80%;
+    }
+    .text5 h2 {
+        font-size: 20px;
+        display: block;
+    }
+    .brands-logo{
+        width: 70%;
+    }
+    #content3
+    {
+        width: 80%;
+    }
+    #brands {
+        width: 80%;
+        margin: auto;
+    }
+    #content4{
+        width: 80%;
+    }
+    footer {
+        width: 80%;
+    }
+    header {
+        /* width: 80%; */
+    }
+    .backround-c {
+        width: 85%;
+        margin: auto;
+    }
+    .container {
+        width: 100%;
+    }
+    #content2 h2 {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 326px)
