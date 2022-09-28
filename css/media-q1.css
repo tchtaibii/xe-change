@@ -353,6 +353,9 @@
     #content2 h2 {
         font-size: 12px;
     }
+    .text5 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 326px)
