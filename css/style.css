@@ -113,24 +113,40 @@ li a{
     display: flex;
     flex-direction: column;
 }
+.textcash{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .c1 h2{
+    display: inline;
     font-family: 'Gilroy-Medium';
     font-size: 40px;
     line-height: 70px;
 }
 
-.c1 h2::after{
+.cash::after{
     content: "";
+    display: inherit;
     position: relative;
-    display: none;
-    bottom: 3px;
-    background: #6baf1a;
-    width: 81px;
-    height: 3px;
+    bottom: 10px;
+    /* background: #6baf1a; */
+    width: 130%;
+    height: 20px;
     /* border: solid 1px #6BAF1A; */
-    left: calc(60% - 20px);
-    /* clip-path: ellipse(144% 100% at 25.56% 0%); */
-    clip-path: ellipse(48% 100% at 50.52% 0%);
+    border-top: 3px solid #6baf1a;
+    border-radius: 100%;
+    -webkit-mask-image:
+     radial-gradient(circle at top left, transparent 0, transparent  20px, black 21px),
+     radial-gradient(circle at top right, transparent 0, transparent  20px, black 21px),
+     radial-gradient(circle at bottom left, transparent 0, transparent  20px, black 21px),
+     radial-gradient(circle at bottom right, transparent 0, transparent  20px, black 21px);
+    -webkit-mask-position: top left, top right, bottom left, bottom right;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 50% 50%;
+    left: calc(-15%);
+    /* clip-path: ellipse(144% 100% at 25.56% 0%); */   
 }
 
 .c1 h1{
