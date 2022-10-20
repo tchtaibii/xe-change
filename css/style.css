@@ -56,7 +56,7 @@ ul li {
     position:relative;
  }
 
-li {
+.li li {
     float: left;
     margin-left: 50px;
     list-style-type: none;
@@ -73,7 +73,7 @@ ul li:hover:before {
     left: calc(50% - 4px);
 }
 
-li a{
+.li li a{
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -721,6 +721,9 @@ footer hr{
     padding: 4px 7px;
 
 }
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
 @media (max-width: 783px) {
     
 }
