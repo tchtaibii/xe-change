@@ -678,3 +678,46 @@ footer hr{
     height: 0.5px;
     background-color: #121314;
 }
+
+.scroll_ input[type=range]{
+    background: #1E1F20;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    width: 75%;
+}
+.scroll_ input[type=range]::-moz-range-progress{
+    background: #67df05;
+  }
+.scroll_ input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    background: #72B218;
+    border: 1px solid #72B218;
+    cursor: pointer;
+}
+.scroll_ input[type=range]::-moz-range-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    background: #72B218;
+    border: 1px solid #72B218;
+    cursor: pointer;
+}
+.scroll_{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+#leftvalue, #rightvalue{
+    border: 1px solid #1E1F20;
+    border-radius: 3px;
+    text-align: center;
+    padding: 4px 7px;
+
+}
