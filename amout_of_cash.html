@@ -79,16 +79,26 @@
 							<!-- AMOUNT INPUT -->
 							<div class="mb-11">
 								<label for="guest"class="mb-3 block text-base text-[#ffff] font-[Inter]">Amount</label>
-								<div class="relative flex w-full flex-wrap items-stretch mb-3">
-									<input type="number" name="guest" id="laddress" placeholder="Note: $200 Minimum" min="200" max="20000" class="h-16 placeholder-[#505151] w-full rounded-md border border-[#161616] bg-[#171819] py-3 px-6 text-base font-[Inter] text-[#505151] outline-none focus:border-[#171819] focus:shadow-md" />
-									<span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-3.5 top-2 pr-3 py-3">
-										<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M9.63672 14.5283C9.63672 15.6366 10.5003 16.5433 11.551 16.5433H13.7099C14.6311 16.5433 15.3795 15.7517 15.3795 14.7874C15.3795 13.7367 14.9189 13.3625 14.2425 13.1178L10.7882 11.9088C10.0973 11.6641 9.63672 11.2899 9.63672 10.2392C9.63672 9.27486 10.3852 8.48325 11.3063 8.48325H13.4653C14.5303 8.49764 15.3939 9.39001 15.3939 10.4983" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M12.5137 16.6158V17.6809" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M12.5137 7.34753V8.47019" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-											<path d="M12.5 24C18.8513 24 24 18.8513 24 12.5C24 6.14873 18.8513 1 12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24Z" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-										</svg>
-									</span>
+								<div class="flex md:flex-row flex-col columns-2 gap-x-[11px]">
+									<div class="relative flex md:w-[85%] w-full flex-wrap items-stretch mb-3">
+										<input type="number" name="guest" id="laddress" placeholder="Note: $200 Minimum" min="200" max="20000" class="h-16 placeholder-[#505151] w-full rounded-md border border-[#161616] bg-[#171819] py-3 px-6 text-base font-[Inter] text-[#505151] outline-none focus:border-[#171819] focus:shadow-md" />
+										<span class="z-10 h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center w-8 right-3.5 top-2 pr-3 py-3">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.63672 14.5283C9.63672 15.6366 10.5003 16.5433 11.551 16.5433H13.7099C14.6311 16.5433 15.3795 15.7517 15.3795 14.7874C15.3795 13.7367 14.9189 13.3625 14.2425 13.1178L10.7882 11.9088C10.0973 11.6641 9.63672 11.2899 9.63672 10.2392C9.63672 9.27486 10.3852 8.48325 11.3063 8.48325H13.4653C14.5303 8.49764 15.3939 9.39001 15.3939 10.4983" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M12.5137 16.6158V17.6809" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M12.5137 7.34753V8.47019" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M12.5 24C18.8513 24 24 18.8513 24 12.5C24 6.14873 18.8513 1 12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24Z" stroke="#505151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</span>
+									</div>
+									<div class="select-div md:w-[13%] w-full h-16">
+										<select style="outline: none;" name="coin" id="select-coin" class="font-[Inter] font-bold w-full h-full bg-[#72B218] md:text-left text-center rounded-[6px]">
+											<option class="font-[Inter] font-normal"  value="BTC">BTC</option>
+											<option class="font-[Inter] font-normal"  value="BTC">EUTH</option>
+											<option class="font-[Inter] font-normal"  value="BTC">USDT</option>
+											<option class="font-[Inter] font-normal"  value="BTC">BIT</option>
+									</select></div>
+									
 								</div>
 							</div>
 							<!-- input range -->
@@ -113,6 +123,8 @@
 							<div style="width: 78%; " class="description mt-14">
 								<p style="display: inline; color: #505151; font-family: 'Inter'; font-size: 18px; line-height: 30px;" >Note: Currently the minimum amout is $200 and the maximum is $20 000. Anything over that please&nbsp;</p>
 								<a style="display:inline-block; color: #6A6B6B; text-decoration: underline; text-underline-offset: 4px; font-family: 'Inter'; font-size: 18px; line-height: 30px;" href="">Contact Us</a>
+								<br><br>
+								<p style="display: inline; color: #505151; font-family: 'Inter'; font-size: 18px; line-height: 30px;" ><a style="display:block-inline; color: #6A6B6B; text-decoration: underline; text-underline-offset: 4px; font-family: 'Inter'; font-size: 18px; line-height: 30px;" href="">Fee System:</a>  5% for $10k+| 8% for $2k-10k |  10% on $200-2k</p>
 							</div>
 						</form>
 					</div>

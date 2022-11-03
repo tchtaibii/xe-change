@@ -724,6 +724,71 @@ footer hr{
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
   }
-@media (max-width: 783px) {
+
+
+option::selection{
+    color: #191919;
+}
+
+select::-ms-expand {
+    display: none;
+    }
+
+    .select-div:after {
+        content: url(../resource/aroow-select.svg);
+        color: #FFFFFF;
+
+        /* color: #FFFFFF; */
+        left: 50px;
+        bottom: 47px;
+        position: relative;
+        margin-left: 17px;
+        font-size: 7px;
+      }
+      
+      .select-div select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #FFFFFF;
+        background-color: #72B218;
+        background-image: none;
+        -ms-word-break: normal;
+        word-break: normal;
+        padding-left: 21px;
+      }
+      option{
+        width: 100%;
+      }
+      select, option{
+        font-size: 16px;
+      }
+      
+    @media (max-width: 1035px) {
     
+    .select-div:after{
+        left: 40px;
+    }
+    select, option{
+        font-size: 10px;
+    }
+    .select-div select{
+        padding-left: 10px;
+    }
+}
+@media (max-width: 797px) {
+    
+    .select-div:after{
+        left: 20px;
+        width: 4px;
+    }
+    select, option{
+        font-size: 7px;
+    }
+    .select-div select{
+        padding-left: 3px;
+    }
 }
